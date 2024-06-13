@@ -6,3 +6,15 @@
 
 3- ASR.py -- this code helps you to use whisper model to  generate speech to text.
 
+4- Sentiment_Checker_Bert.py -- this code is using pre/finetuned bert model to check posittive and negative sense of any sentence. To use this tool first install "pip install transformers torch".
+ the output will be 
+
+ "Sentence: I love this product! It works great and is exactly what I needed.
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9998726844787598}]
+
+Sentence: I am very disappointed with this service. It was terrible and I won't be using it again.
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9995607733726501}]
+"
+
+
+
