@@ -15,7 +15,7 @@ Sentiment: [{'label': 'POSITIVE', 'score': 0.9998726844787598}]
 
 Sentence: I am very disappointed with this service. It was terrible and I won't be using it again.
 Sentiment: [{'label': 'NEGATIVE', 'score': 0.9995607733726501}]
-"
+
 ---------------------------------------------------------------------------------
 
 ===========================================================================================================================
@@ -37,4 +37,11 @@ If you want to TensorFlow(TF) to handle your NLP tasks, These 5 tools help you t
 ================================================================================================================================
 
 
+5- Sentiment_data_generator.py -- if you have token/word list. Then this tool helps you to generate data for positive and negative sentiment data set. 
 
+please install 
+
+ 		pip install transformers
+ 				
+
+==================================================
