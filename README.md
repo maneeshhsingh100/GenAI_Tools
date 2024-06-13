@@ -1,14 +1,15 @@
 # GenAI_Tools
 
 # All tools are avaialble in the src folder.
-=======================================================================
-1- FST_Gen.py -- this code helps you to generate n numbers of sentnces. also you can modify this code according to your requirement. FST stands for Finite State of Transducer.
+======================================================================
 
-2- Sentiment.py -- this code helps you to check the positive and negative sense of any sentence using pre-trained model.
+1- **FST_Gen.py** -- this code helps you to generate n numbers of sentnces. also you can modify this code according to your requirement. FST stands for Finite State of Transducer.
 
-3- ASR.py -- this code helps you to use whisper model to  generate speech to text.
+2- **Sentiment.py** -- this code helps you to check the positive and negative sense of any sentence using pre-trained model.
 
-4- Sentiment_Checker_Bert.py -- this code is using pre/finetuned bert model to check posittive and negative sense of any sentence. To use this tool first install "pip install transformers torch".
+3- **ASR.py** -- this code helps you to use whisper model to  generate speech to text.
+
+4- **Sentiment_Checker_Bert.py** -- this code is using pre/finetuned bert model to check posittive and negative sense of any sentence. To use this tool first install "pip install transformers torch".
 
 ---------------------------------------------------------------------------------
  the output will be 
@@ -36,7 +37,7 @@ If you want to TensorFlow(TF) to handle your NLP tasks, These 5 tools help you t
  				or
  		pip install tensorflow==2.8.0
 
-===================================================================================
+======================================================================
 
 
 5- Sentiment_data_generator.py -- if you have token/word list. Then this tool helps you to generate data for positive and negative sentiment data set. 
