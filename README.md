@@ -1,7 +1,7 @@
 # GenAI_Tools
 
 # All tools are avaialble in the src folder.
-======================================================================
+================================================================
 
 1- **FST_Gen.py** -- this code helps you to generate n numbers of sentnces. also you can modify this code according to your requirement. FST stands for Finite State of Transducer.
 
@@ -21,7 +21,7 @@ Sentiment: [{'label': 'NEGATIVE', 'score': 0.9995607733726501}]
 
 ---------------------------------------------------------------------------------
 
-==========================================================================
+================================================================
 
 If you want to TensorFlow(TF) to handle your NLP tasks, These 5 tools help you to do simple NLP tasks.
 
@@ -37,7 +37,7 @@ If you want to TensorFlow(TF) to handle your NLP tasks, These 5 tools help you t
  				or
  		pip install tensorflow==2.8.0
 
-======================================================================
+================================================================
 
 
 5- Sentiment_data_generator.py -- if you have token/word list. Then this tool helps you to generate data for positive and negative sentiment data set. 
@@ -48,3 +48,21 @@ please install
  				
 
 ==================================================
+
+
+6- speech_model_lib -- this package contains, ASR/TTS model training code and how we can use the model.
+    Ensure you have the necessary dependencies installed. For example, to use Tacotron 2 and WaveGlow:
+
+ 		 TTS needed    pip install torch torchaudio librosa numpy
+
+ 		ASR needed		pip install transformers torchaudio
+
+
+ 		 asr.py, integrate the Wav2Vec 2.0 model from Hugging Face:
+
+ 		 tts.py, integrate Tacotron 2 and WaveGlow
+
+
+ ================================================
+ contact : maneeshhsingh100@gmail.com
+
