@@ -40,7 +40,7 @@ If you want to TensorFlow(TF) to handle your NLP tasks, These 5 tools help you t
 ================================================================
 
 
-5- Sentiment_data_generator.py -- if you have token/word list. Then this tool helps you to generate data for positive and negative sentiment data set. 
+5- **Sentiment_data_generator.py** -- if you have token/word list. Then this tool helps you to generate data for positive and negative sentiment data set. 
 
 please install 
 
@@ -50,7 +50,7 @@ please install
 ==================================================
 
 
-6- speech_model_lib -- this package contains, ASR/TTS model training code and how we can use the model.
+6- **speech_model_lib** -- this package contains, ASR/TTS model training code and how we can use the model.
     Ensure you have the necessary dependencies installed. For example, to use Tacotron 2 and WaveGlow:
 
  		 TTS needed    pip install torch torchaudio librosa numpy
@@ -63,6 +63,7 @@ please install
  		 tts.py, integrate Tacotron 2 and WaveGlow
 
 
- ================================================
- contact : maneeshhsingh100@gmail.com
+ ===============================================
+ 
+✉️: maneeshhsingh100@gmail.com
 
