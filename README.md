@@ -9,7 +9,9 @@
 
 3- **ASR.py** -- this code helps you to use whisper model to  generate speech to text.
 
-4- **Sentiment_Checker_Bert.py** -- this code is using pre/finetuned bert model to check posittive and negative sense of any sentence. To use this tool first install "pip install transformers torch".
+4- **multilingual_ASR_Whispher.py** -- this code is using pre/finetuned whishper model to transcribe text and also give the language code too. You can use this model for multiple languages.
+
+5- **Sentiment_Checker_Bert.py** -- this code is using pre/finetuned bert model to check posittive and negative sense of any sentence. To use this tool first install "pip install transformers torch".
 
 ---------------------------------------------------------------------------------
  the output will be 
