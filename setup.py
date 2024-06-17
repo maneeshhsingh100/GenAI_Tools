@@ -12,7 +12,7 @@ setup(
         'numpy',
         'matplotlib',
     ],
-    author='Your Name',
+    author='Manish Singh',
     description='An end-to-end speech model library using pretrained models',
-    url='https://github.com/yourusername/speech_model_lib',
+    url='https://github.com/maneeshhsingh100/GenAI_Tools/speech_model_lib',
 )
