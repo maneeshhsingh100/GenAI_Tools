@@ -25,7 +25,7 @@ Sentiment: [{'label': 'NEGATIVE', 'score': 0.9995607733726501}]
 
 ================================================================
 
-If you want to use TensorFlow(TF) to handle your NLP tasks, These 5 tools help you to do simple NLP tasks.
+If you want to use TensorFlow(TF) to handle your NLP tasks, These 5 tools help you to do simple NLP tasks for who dont anything about TF or need to play with TF so they can play with below mentioned scripts .
 
         NER_checker.py
         sentiment_checker_tf.py
