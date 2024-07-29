@@ -66,6 +66,22 @@ please install
 
 
  ===============================================
+
+ **kaldi_ASR** -- this diractory contains, script to train ASR model using kaldi. 
+
+
+
+            1- setup.ipynb which install kaldi dependencies
+
+            2- install_requirement.ipynb
+
+            3- prepare_data.sh **script and run it to prepare the necessary Kaldi files**
+
+            4- model_training.ipynb to train the model
+
+            5- evolution.ipynb to evoluate the model
  
+            6- model_training_with_normaliser.ipynb here is entire notebook also it contains the text normalizer script which helps to normalise the abbrevaton and currency symbols.
+
 ✉️: maneeshhsingh100@gmail.com
 
