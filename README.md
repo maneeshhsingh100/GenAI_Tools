@@ -67,7 +67,7 @@ please install
 
  ===============================================
 
- **kaldi_ASR** -- this diractory contains, script to train ASR model using kaldi. 
+ **kaldi_ASR** -- this directory contains, script to train ASR model using kaldi. 
 
 
 
