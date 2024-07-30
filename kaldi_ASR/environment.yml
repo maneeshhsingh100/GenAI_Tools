@@ -1,0 +1,25 @@
+name: kaldi_asr
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - librosa
+  - inflect
+  - cmake
+  - make
+  - gcc
+  - gxx_linux-64
+  - git
+  - subversion
+  - sox
+  - wget
+  - zlib
+  - automake
+  - autoconf
+  - unzip
+  - pip
+  - pip:
+    - num2words
