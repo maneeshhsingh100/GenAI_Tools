@@ -21,12 +21,15 @@ jobs:
       with:
         python-version: 3.8
         auto-update-conda: true
-        activate-environment: kaldi_asr
 
     - name: Initialize conda
       run: |
         conda init bash
         source ~/.bashrc
+
+    - name: Remove existing environment if it exists
+      run: |
+        conda env remove -n kaldi_asr || echo "Environment does not exist"
 
     - name: Create conda environment
       run: conda env create -f environment.yml
