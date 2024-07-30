@@ -23,18 +23,21 @@ jobs:
         auto-update-conda: true
 
     - name: Initialize conda
+      shell: bash -l {0}
       run: |
         conda init bash
         source ~/.bashrc
 
     - name: Remove existing environment if it exists
-      run: |
-        conda env remove -n kaldi_asr || echo "Environment does not exist"
+      shell: bash -l {0}
+      run: conda env remove -n kaldi_asr || echo "Environment does not exist"
 
     - name: Create conda environment
+      shell: bash -l {0}
       run: conda env create -f environment.yml
 
     - name: Activate conda environment and run tests
+      shell: bash -l {0}
       run: |
         conda activate kaldi_asr
         pytest
