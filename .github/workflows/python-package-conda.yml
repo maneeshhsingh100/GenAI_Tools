@@ -22,11 +22,15 @@ jobs:
         python-version: 3.8
         auto-update-conda: true
 
+    - name: Initialize conda
+      run: |
+        conda init bash
+        source ~/.bashrc
+
     - name: Create conda environment
       run: conda env create -f environment.yml
 
-    - name: Activate conda environment
-      run: conda activate kaldi_asr
-
-    - name: Run tests
-      run: pytest
+    - name: Activate conda environment and run tests
+      run: |
+        source activate kaldi_asr
+        pytest
